@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirubel Kebede | Video Editor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">KK<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for freelance work
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">Kirubel</span>
+        <span class="title-line gradient-text">Kebede</span>
+      </h1>
+      <p class="hero-subtitle">Video Editor <span class="divider">|</span> Colorist <span class="divider">|</span> Storyteller</p>
+      <p class="hero-desc">I transform raw footage into cinematic stories that captivate, engage, and leave a lasting impression.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">
+          <i class="fas fa-play"></i> Watch My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-count="50">0</span><span>+</span>
+          <span class="stat-label">Projects Done</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="30">0</span><span>+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="4">0</span><span>+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="card-glow"></div>
+        <div class="card-screen">
+          <div class="screen-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="screen-body">
+            <div class="timeline">
+              <div class="tl-row">
+                <div class="tl-label">V1</div>
+                <div class="tl-track"><div class="tl-clip clip-1"></div></div>
+              </div>
+              <div class="tl-row">
+                <div class="tl-label">V2</div>
+                <div class="tl-track"><div class="tl-clip clip-2"></div></div>
+              </div>
+              <div class="tl-row">
+                <div class="tl-label">A1</div>
+                <div class="tl-track"><div class="tl-clip clip-3 audio"></div></div>
+              </div>
+              <div class="tl-row">
+                <div class="tl-label">A2</div>
+                <div class="tl-track"><div class="tl-clip clip-4 audio"></div></div>
+              </div>
+            </div>
+            <div class="playhead"></div>
+          </div>
+        </div>
+        <div class="card-tools">
+          <div class="tool active"><i class="fas fa-cut"></i></div>
+          <div class="tool"><i class="fas fa-magic"></i></div>
+          <div class="tool"><i class="fas fa-film"></i></div>
+          <div class="tool"><i class="fas fa-music"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="img-placeholder">
+              <img src="image/kiyaa.jpg" alt="Kirubel Kebede" />
+            </div>
+            <div class="about-badge-card">
+              <i class="fas fa-award"></i>
+              <div>
+                <strong>Professional Editor</strong>
+                <span>4+ Years Experience</span>
+              </div>
+            </div>
+            <div class="floating-tag tag-1"><i class="fas fa-film"></i> Premiere Pro</div>
+            <div class="floating-tag tag-2"><i class="fas fa-star"></i> After Effects</div>
+            <div class="floating-tag tag-3"><i class="fas fa-palette"></i> DaVinci</div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Crafting Stories<br /><span class="gradient-text">Frame by Frame</span></h2>
+          <p class="about-text">
+            I'm <strong>Kirubel Kebede</strong>, a passionate video editor based in Hossana, Ethiopia. I specialize in transforming raw footage into compelling visual narratives for brands, creators, and businesses worldwide.
+          </p>
+          <p class="about-text">
+            With a sharp eye for detail and a deep understanding of storytelling, I deliver content that not only looks stunning but also connects emotionally with audiences — from fast-paced social media reels to full-length cinematic productions.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Social Media Content (Reels, TikTok, YouTube Shorts)</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Long-form YouTube & Documentary Editing</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Color Grading & Sound Design</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-check-circle"></i>
+              <span>Motion Graphics & Visual Effects</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Work With Me <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">What I Do</div>
+        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+        <p class="section-desc">Comprehensive video editing solutions tailored to your vision and goals.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Short-Form Editing</h3>
+          <p>High-energy Reels, TikToks, and YouTube Shorts that stop the scroll and drive engagement.</p>
+          <ul class="service-list">
+            <li>Instagram Reels</li>
+            <li>TikTok Videos</li>
+            <li>YouTube Shorts</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-film"></i></div>
+          <h3>Long-Form Production</h3>
+          <p>Full-length YouTube videos, documentaries, and podcast edits with professional polish.</p>
+          <ul class="service-list">
+            <li>YouTube Videos</li>
+            <li>Podcast Editing</li>
+            <li>Mini Documentaries</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-palette"></i></div>
+          <h3>Color Grading</h3>
+          <p>Cinematic color correction and grading that elevates your footage to a professional level.</p>
+          <ul class="service-list">
+            <li>Color Correction</li>
+            <li>Cinematic LUTs</li>
+            <li>Mood & Tone Matching</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-magic"></i></div>
+          <h3>Motion Graphics</h3>
+          <p>Eye-catching animations, lower thirds, transitions, and title sequences that add flair.</p>
+          <ul class="service-list">
+            <li>Animated Titles</li>
+            <li>Lower Thirds</li>
+            <li>Custom Transitions</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-ad"></i></div>
+          <h3>Commercial Ads</h3>
+          <p>Compelling video ads for brands and businesses that convert viewers into customers.</p>
+          <ul class="service-list">
+            <li>Product Promos</li>
+            <li>Brand Videos</li>
+            <li>Event Highlights</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-music"></i></div>
+          <h3>Audio Design</h3>
+          <p>Professional audio mixing, sound effects, and music synchronization for perfect results.</p>
+          <ul class="service-list">
+            <li>Audio Mixing</li>
+            <li>Sound Effects</li>
+            <li>Music Sync</li>
+          </ul>
+          <div class="service-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">My Work</div>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">A selection of my best work across different styles and formats.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="portfolio-filters reveal">
+       
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- Video Card 1 -->
+        <div class="video-card reveal" data-category="short">
+          <div class="video-thumb" onclick="openModal('videos/Wedding Final.mp4', 'Wedding Final', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/Wedding Final.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>Wedding Video</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>Wedding Video</h4>
+              <span>Instagram Reel · 30s</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="video-card reveal" data-category="long">
+          <div class="video-thumb" onclick="openModal('videos/First.mp4', 'color grading', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/First.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>color grading Edit</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>color grading Edit</h4>
+              <span>YouTube · Full Episode</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="video-card reveal" data-category="commercial">
+          <div class="video-thumb" onclick="openModal('videos/Final_yetesfa.mp4', 'School Ad', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/Final_yetesfa.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>School Ad</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>School Ad</h4>
+              <span>Brand Promo · 60s</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+      
+        <!-- Video Card 4 -->
+        <div class="video-card reveal" data-category="commercial">
+          <div class="video-thumb" onclick="openModal('videos/Final_yoni.mp4', 'School Ad', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/Final_yoni.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>School Ad</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>School Ad</h4>
+              <span>Brand Promo · 60s</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+        <!-- Video Card 5 -->
+         <div class="video-card reveal" data-category="commercial">
+          <div class="video-thumb" onclick="openModal('videos/Final_Elasha.mp4', 'School Ad', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/Final_Elasha.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>School Ad</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>School Ad</h4>
+              <span>Brand Promo · 60s</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+        <!-- Video Card 6 -->
+       <div class="video-card reveal" data-category="commercial">
+          <div class="video-thumb" onclick="openModal('videos/Final.mp4', 'School Ad', 'Short-Form · Instagram Reel')">
+            <video class="thumb-video" src="videos/Final.mp4" muted preload="metadata"></video>
+            <div class="thumb-overlay">
+              <div class="play-btn"><i class="fas fa-play"></i></div>
+              <div class="thumb-info">
+                <span class="thumb-category">Short Form</span>
+                <h4>School Ad</h4>
+              </div>
+            </div>
+            <div class="thumb-hover-bar"></div>
+          </div>
+          <div class="video-meta">
+            <div class="meta-left">
+              <h4>School Ad</h4>
+              <span>Brand Promo · 60s</span>
+            </div>
+            <div class="meta-tag">Short Form</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIDEO MODAL ===== -->
+  <div class="modal-overlay" id="videoModal" onclick="closeModal(event)">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      <div class="modal-video-wrap">
+        <video id="modalVideo" controls playsinline></video>
+      </div>
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <span id="modalSubtitle"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Expertise</div>
+        <h2 class="section-title">Tools & <span class="gradient-text">Skills</span></h2>
+        <p class="section-desc">Industry-standard tools and techniques I use to deliver exceptional results.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-col reveal">
+          <h3 class="skills-group-title"><i class="fas fa-video"></i> Video Editing</h3>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Adobe Premiere Pro</span><span class="skill-pct">95%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>DaVinci Resolve</span><span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>CapCut Pro</span><span class="skill-pct">92%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+        </div>
+        <div class="skills-col reveal">
+          <h3 class="skills-group-title"><i class="fas fa-magic"></i> Motion & VFX</h3>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>After Effects</span><span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Color Grading</span><span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span>Sound Design</span><span class="skill-pct">82%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Software Logos -->
+      <div class="tools-row reveal">
+        <div class="tool-badge"><i class="fas fa-film"></i><span>Premiere</span></div>
+        <div class="tool-badge"><i class="fas fa-star"></i><span>After Effects</span></div>
+        <div class="tool-badge"><i class="fas fa-palette"></i><span>DaVinci</span></div>
+       
+        <div class="tool-badge"><i class="fas fa-mobile-alt"></i><span>CapCut</span></div>
+        <div class="tool-badge"><i class="fas fa-music"></i><span>Audition</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Client Love</div>
+        <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Kirubel completely transformed our brand's social media presence. The reels he creates consistently get 10x our normal engagement. Absolutely brilliant editor."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div>
+              <strong>Abebe Mekonen</strong>
+              <span>School Manager, StartupEth</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The quality of editing is outstanding. He understood our vision from the first brief and delivered something even better than what we imagined. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">ST</div>
+            <div>
+              <strong>Sara Tadesse</strong>
+              <span>YouTube Content Creator</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Professional, fast, and incredibly creative. Kirubel edited our entire podcast season and every episode looked and sounded phenomenal. Will definitely work again."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DG</div>
+            <div>
+              <strong>Dawit Girma</strong>
+              <span>Podcast Host </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Let's Create Something <span class="gradient-text">Amazing</span></h2>
+        <p class="section-desc">Have a project in mind? I'd love to hear about it. Let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Location</strong>
+              <span>Hossana, Ethiopia</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <span>kirubelkebede61@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <span>+251961463568</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.instagram.com/kirubel2029/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            
+            <a href="https://www.linkedin.com/in/kirubel-kebede-780666301/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@kiyakebede61" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">KK<span class="dot">.</span></span>
+          <p>Transforming visions into cinematic reality, one frame at a time.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/kirubel2029/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@kirubelkebede" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/kirubel-kebede-780666301/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.tiktok.com/@kiyakebede61" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Kirubel Kebede. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart"></i> for storytelling</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
